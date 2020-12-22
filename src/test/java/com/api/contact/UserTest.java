@@ -47,7 +47,15 @@ public class UserTest extends WeChatCommon {
             Response response = UserObject.createUser(user, accessToken);
             assertEquals("0",response.path("errcode").toString());
         }
+    }
 
+    @Description("邀请成员测试")
+    @Story("Story邀请成员测试")
+    @DisplayName("邀请成员")
+    @Test
+    void userInviteTest(){
+        Response response = UserObject.inviteUser(accessToken);
+        assertEquals("0",response.path("errcode").toString());
     }
 
 
