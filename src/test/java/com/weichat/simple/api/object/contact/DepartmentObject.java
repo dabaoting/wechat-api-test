@@ -1,6 +1,6 @@
-package com.api.object.contact;
+package com.weichat.simple.api.object.contact;
 
-import com.api.util.FakerUtils;
+import com.weichat.simple.api.util.FakerUtils;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;

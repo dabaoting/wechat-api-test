@@ -1,4 +1,4 @@
-package com.api.common;
+package com.weichat.simple.api.common;
 
 import org.junit.jupiter.api.BeforeAll;
 

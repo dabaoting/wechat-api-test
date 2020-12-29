@@ -1,4 +1,4 @@
-package com.api.util;
+package com.weichat.simple.api.util;
 
 public class FakerUtils {
 

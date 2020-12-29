@@ -1,9 +1,9 @@
-package com.api.contact;
+package com.weichat.simple.api.contact;
 
-import com.api.common.WeChatCommon;
-import com.api.object.contact.DepartmentObject;
-import com.api.task.EnvHelperTask;
-import com.api.util.FakerUtils;
+import com.weichat.simple.api.common.WeChatCommon;
+import com.weichat.simple.api.object.contact.DepartmentObject;
+import com.weichat.simple.api.task.EnvHelperTask;
+import com.weichat.simple.api.util.FakerUtils;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;

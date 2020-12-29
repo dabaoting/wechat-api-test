@@ -1,9 +1,6 @@
-package com.api.object.contact;
+package com.weichat.simple.api.object.contact;
 
 import io.restassured.response.Response;
-import javafx.animation.PathTransitionBuilder;
-
-import java.util.List;
 
 import static io.restassured.RestAssured.given;
 

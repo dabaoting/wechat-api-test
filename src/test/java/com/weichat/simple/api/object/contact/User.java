@@ -1,4 +1,4 @@
-package com.api.object.contact;
+package com.weichat.simple.api.object.contact;
 
 import java.util.List;
 

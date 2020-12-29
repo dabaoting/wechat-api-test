@@ -1,4 +1,4 @@
-package com.api.assured;
+package com.weichat.simple.api.assured;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

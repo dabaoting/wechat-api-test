@@ -1,8 +1,8 @@
-package com.api.task;
+package com.weichat.simple.api.task;
 
 import com.alibaba.fastjson.JSON;
-import com.api.object.contact.DepartmentObject;
-import com.api.object.contact.UserObject;
+import com.weichat.simple.api.object.contact.DepartmentObject;
+import com.weichat.simple.api.object.contact.UserObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

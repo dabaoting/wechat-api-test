@@ -1,9 +1,9 @@
-package com.api.contact;
+package com.weichat.simple.api.contact;
 
-import com.api.common.WeChatCommon;
-import com.api.object.contact.User;
-import com.api.object.contact.UserObject;
-import com.api.task.EnvHelperTask;
+import com.weichat.simple.api.common.WeChatCommon;
+import com.weichat.simple.api.object.contact.User;
+import com.weichat.simple.api.object.contact.UserObject;
+import com.weichat.simple.api.task.EnvHelperTask;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
