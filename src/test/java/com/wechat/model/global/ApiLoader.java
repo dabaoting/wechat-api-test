@@ -1,7 +1,7 @@
-package com.wechat.global;
+package com.wechat.model.global;
 
-import com.wechat.action.ApiActionModel;
-import com.wechat.api.ApiObjectModel;
+import com.wechat.model.action.ApiActionModel;
+import com.wechat.model.api.ApiObjectModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

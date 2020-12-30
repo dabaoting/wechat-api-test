@@ -1,8 +1,8 @@
-package com.wechat.steps;
+package com.wechat.model.steps;
 
 import com.utils.PlaceholderUtils;
-import com.wechat.global.ApiLoader;
-import com.wechat.global.GlobalVariables;
+import com.wechat.model.global.ApiLoader;
+import com.wechat.model.global.GlobalVariables;
 import io.restassured.response.Response;
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
@@ -15,7 +15,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
 
 public class StepModel {
 

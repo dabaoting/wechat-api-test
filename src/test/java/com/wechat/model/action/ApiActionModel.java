@@ -1,13 +1,11 @@
-package com.wechat.action;
+package com.wechat.model.action;
 import com.utils.PlaceholderUtils;
-import com.wechat.global.GlobalVariables;
+import com.wechat.model.global.GlobalVariables;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 

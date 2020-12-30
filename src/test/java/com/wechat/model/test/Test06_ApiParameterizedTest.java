@@ -1,8 +1,8 @@
-package com.wechat.test;
+package com.wechat.model.test;
 
 
-import com.wechat.global.ApiLoader;
-import com.wechat.testcase.ApiTestCaseModel;
+import com.wechat.model.global.ApiLoader;
+import com.wechat.model.testcase.ApiTestCaseModel;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

@@ -1,4 +1,4 @@
-package com.wechat.steps;
+package com.wechat.model.steps;
 
 public class AssertModel {
     private String actual;

@@ -4,11 +4,11 @@
  * packageName: com.apiobject.test
  * date: 2020-12-26 下午2:17
  */
-package com.wechat.test;
+package com.wechat.model.test;
 
 
-import com.wechat.action.ApiActionModel;
-import com.wechat.global.GlobalVariables;
+import com.wechat.model.action.ApiActionModel;
+import com.wechat.model.global.GlobalVariables;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;

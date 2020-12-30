@@ -1,15 +1,24 @@
 package com.weichat.simple.api.assured;
 
+import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.collection.ArrayMatching.arrayContainingInAnyOrder;
+import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
+import static org.hamcrest.collection.IsIn.isIn;
 
 public class UserTest {
 
     private static String accessToken;
     
-    @BeforeAll
+//    @BeforeAll
     static void init(){
         accessToken = given()
                 .when()
@@ -38,5 +47,18 @@ public class UserTest {
                 .then()
                 .log().all();
 
+    }
+
+    @Test
+    void testDemo(){
+        ArrayList<String> actual = new ArrayList();
+        actual.add("1");
+        actual.add("2");
+
+        ArrayList<String> expect = new ArrayList();
+        expect.add("1");
+        expect.add("2");
+
+        assertThat("","1",isIn(actual));
     }
 }

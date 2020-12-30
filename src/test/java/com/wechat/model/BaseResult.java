@@ -1,4 +1,4 @@
-package com.wechat;
+package com.wechat.model;
 
 import io.restassured.response.Response;
 

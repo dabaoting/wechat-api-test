@@ -4,14 +4,13 @@
  * packageName: com.apiobject.test
  * date: 2020-12-26 下午2:17
  */
-package com.wechat.test;
+package com.wechat.model.test;
 
-import com.wechat.api.ApiObjectModel;
+import com.wechat.model.api.ApiObjectModel;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class Test02_ApiObjectModelTest {

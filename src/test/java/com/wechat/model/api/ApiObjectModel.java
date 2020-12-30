@@ -1,12 +1,11 @@
-package com.wechat.api;
+package com.wechat.model.api;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import com.wechat.action.ApiActionModel;
+import com.wechat.model.action.ApiActionModel;
 
 import java.io.File;
 import java.util.HashMap;
-import java.util.List;
 
 public class ApiObjectModel {
 

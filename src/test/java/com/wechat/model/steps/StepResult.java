@@ -1,6 +1,6 @@
-package com.wechat.steps;
+package com.wechat.model.steps;
 
-import com.wechat.BaseResult;
+import com.wechat.model.BaseResult;
 import org.junit.jupiter.api.function.Executable;
 
 import java.util.ArrayList;

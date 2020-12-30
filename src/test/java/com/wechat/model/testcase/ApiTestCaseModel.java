@@ -1,12 +1,10 @@
-package com.wechat.testcase;
+package com.wechat.model.testcase;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import com.wechat.steps.StepModel;
-import com.wechat.steps.StepResult;
+import com.wechat.model.steps.StepModel;
+import com.wechat.model.steps.StepResult;
 import com.weichat.simple.api.util.FakerUtils;
-import javafx.beans.binding.MapExpression;
-import jdk.nashorn.internal.runtime.PropertyMap;
 import org.junit.jupiter.api.function.Executable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

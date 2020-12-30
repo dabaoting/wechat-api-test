@@ -1,13 +1,15 @@
 #ApiObjectModel
 name: department
 actions:
-  #ApiObjectMethodModel
+  #创建部门接口
   createDepartment:
     formalParam: ["name","name_en"]
     headers:
       Content-Type: application/json
     body: '{"name": "${name}","name_en": "${name_en}","parentid": 1}'
     post: https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=${accesstoken}
+
+  #更新部门接口
   updateDepartment:
     formalParam: ["departmentId","name","name_en"]
     contentType: application/json
@@ -18,11 +20,15 @@ actions:
                "order": 1
            }'
     post: https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=${accesstoken}
+
+  #获取指定部门列表接口
   listDepartment:
     formalParam: ["departmentId"]
     query:
       id: ${departmentId}
     get: https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=${accesstoken}
+
+  #删除部门接口
   deletDepartment:
     formalParam: ["departmentId"]
     query:
